@@ -17,11 +17,11 @@ h1:after
     display: block;
     height: 3px;
     width: 200px;
-    margin: 10px auto;
+    margin: 5px auto;
 }
 .profile
 {
-    margin-top: 25px;
+    margin-top: 20px;
 }
 .profile .img-box
 {
@@ -37,16 +37,22 @@ h1:after
 {
     font-size: 22px;
     font-weight: bold;
-    margin-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
 .profile h3
 {
     font-size: 15px;
     font-weight: bold;
-    margin-top: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .img-box img {
     position: relative;
+    box-shadow: 10px 10px 5px grey;
+}
+.img-box1 img{
+  box-shadow: 10px 10px 5px grey;
 }
 
 .img-box ul
@@ -57,18 +63,17 @@ h1:after
     z-index: 1;
     bottom: 0;
     display: block;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 35%;
+    transform: translateY(80%);
     opacity: 1;
 }
 .img-box ul li
 {
     width: 30px;
     height: 30px;
-    border: 1px solid #fff;
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 50%;
     margin: 3px;
-    padding: 7px;
     display: inline-block;
 
 }
@@ -76,39 +81,29 @@ h1:after
 {
     color: #fff;
 }
-.img-box img:hover
-{
-    right: 0px;
-    bottom: 0px;
-}
 
-.img-box a:hover li
+
+.fa-linkedin
 {
-    color: #007bff;
-    border: 1px solid #007bff;
+    color: blue;
+    
 }
-.img-box .img-overlay, .img-box ul, .img-box ul li
+.fa-github
 {
-    transition: all 0.5s ease-in-out 0s;
+    color: black;
+    
 }
 
 
 .img-box .img-container {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     margin: auto;
     position: relative;
 }
 
-.img-overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgb(0, 0, 0, .2);
-    opacity: 0;
-}
+
+
 .img-overlay:hover {
     opacity: 1;
 }
@@ -119,7 +114,6 @@ h1:after
   position: relative;
   height: 100vh;
   overflow: hidden;
-  font-family: 'Montserrat', sans-serif;
 }
 .hero__title {
   color: #fff;
@@ -139,33 +133,33 @@ h1:after
   border: solid 1px #003298;
   transform-origin: top left;
   transform: scale(0) rotate(0deg) translate(-50%, -50%);
-  animation: cube 12s ease-in forwards infinite;
+  animation: cube 3s ease-in forwards infinite;
 }
 .cube:nth-child(2n) {
   border-color: #0051f4;
 }
 .cube:nth-child(2) {
-  animation-delay: 2s;
+  animation-delay: 0s;
   left: 25vw;
   top: 40vh;
 }
 .cube:nth-child(3) {
-  animation-delay: 4s;
+  animation-delay: 1s;
   left: 75vw;
   top: 50vh;
 }
 .cube:nth-child(4) {
-  animation-delay: 6s;
+  animation-delay: 2s;
   left: 90vw;
   top: 10vh;
 }
 .cube:nth-child(5) {
-  animation-delay: 8s;
+  animation-delay: 3s;
   left: 10vw;
   top: 85vh;
 }
 .cube:nth-child(6) {
-  animation-delay: 10s;
+  animation-delay: 4s;
   left: 50vw;
   top: 10vh;
 }
