@@ -1,5 +1,5 @@
-.team
-{
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet');
+.team {
     margin: 75px 0;
 }
 h1
@@ -60,7 +60,6 @@ h1:after
     box-shadow:  0 10px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 6px;
 }
-
 .img-box ul
 {
     margin: 0;
@@ -81,17 +80,14 @@ h1:after
     border-radius: 50%;
     margin: 3px;
     display: inline-block;
-
 }
 .img-box a
 {
     color: #fff;
 }
-
-
 .fa-linkedin
 {
-    color: blue;
+    color: rgb(0,119,181);
     
 }
 .fa-github
@@ -99,22 +95,15 @@ h1:after
     color: black;
     
 }
-
-
 .img-box .img-container {
     width: 250px;
     height: 250px;
     margin: auto;
     position: relative;
 }
-
-
-
 .img-overlay:hover {
     opacity: 1;
 }
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
 .hero {
   background-color: #0040c1;
   position: relative;
