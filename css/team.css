@@ -84,15 +84,14 @@ h1:after
     margin: 3px;
     display: inline-block;
 }
-.git:hover{
+.img-box ul .git:hover{
 background:#000;
 }
-.linkedin:hover {
+.img-box ul .linkedin:hover {
 background:rgb(0,119,181);
 }
 .git:hover .fa-github:hover {
-background:#000;
-	color:#fff;
+color:#fff;
 }
 .linkedin:hover .fa-linkedin:hover {
 	color:#fff;
