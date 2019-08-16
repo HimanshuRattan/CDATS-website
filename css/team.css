@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet');
+body {
+font-family: 'Roboto', sans-serif;
+}
 .team {
     margin: 75px 0;
 }
@@ -167,4 +170,11 @@ h1:after
     transform: scale(20) rotate(960deg) translate(-50%, -50%);
     opacity: 0;
   }
+}
+.img-box img:hover,
+.img-box1 img:hover {
+	transition: ease-in-out 0.2s all;
+	-webkit-transition: ease-in-out 0.2s all;
+	-moz-transition: ease-in-out 0.2s all;
+	-o-transition: ease-in-out 0.2s all;
 }
