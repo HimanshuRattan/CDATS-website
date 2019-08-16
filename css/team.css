@@ -72,8 +72,10 @@ h1:after
     bottom: 0;
     display: block;
     left: 35%;
-    transform: translateY(80%);
+    transform: translateY(100%);
     opacity: 1;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
 .img-box ul li
 {
@@ -90,13 +92,12 @@ h1:after
 }
 .fa-linkedin
 {
+    color: black;
     color: rgb(0,119,181);
-    
 }
 .fa-github
 {
     color: black;
-    
 }
 .img-box .img-container {
     width: 250px;
@@ -104,6 +105,23 @@ h1:after
     margin: auto;
     position: relative;
 }
+.img-box a:hover li
+{
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+}
+.img-box a:hover li>.fa-linkedin
+{
+  color: white;
+}
+.img-box a:hover li>.fa-github
+{
+  color: white;
+}
+.img-overlay, .img-box ul, .img-box ul li,.fa-linkedin,.fa-github
+{
+    transition: all 0.2s ease-in;
 .img-overlay:hover {
     opacity: 1;
 }
