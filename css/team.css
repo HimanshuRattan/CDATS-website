@@ -81,18 +81,18 @@ h1:after
 {
     width: 30px;
     height: 30px;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1.5px solid rgb(0, 0, 0);
     border-radius: 50%;
     margin: 3px;
     display: inline-block;
 }
-.img-box a
+/* .img-box a
 {
     color: #fff;
-}
+} */
 .fa-linkedin
 {
-    color: black;
+    color: #0077B5;
 }
 .fa-github
 {
@@ -104,9 +104,13 @@ h1:after
     margin: auto;
     position: relative;
 }
-.img-box a:hover li
+.img-box a.linkedin:hover li
 {
-    color: white;
+    border: 1px solid black;
+    background-color: #0077B5;
+}
+.img-box a.github:hover li
+{
     border: 1px solid black;
     background-color: black;
 }
