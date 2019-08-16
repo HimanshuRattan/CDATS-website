@@ -84,6 +84,10 @@ h1:after
     margin: 3px;
     display: inline-block;
 }
+.git:hover .fa-github:hover {
+background:#000;
+	color:#fff;
+}
 .img-box a
 {
     color: #fff;
