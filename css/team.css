@@ -49,10 +49,16 @@ h1:after
 }
 .img-box img {
     position: relative;
-    box-shadow: 10px 10px 5px grey;
+    box-shadow:  0 10px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+.img-box img:hover,
+.img-box1 img:hover{
+    box-shadow:  0 13px 10px 0 rgba(0, 0, 0, 0.2);
 }
 .img-box1 img{
-  box-shadow: 10px 10px 5px grey;
+    box-shadow:  0 10px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
 }
 
 .img-box ul
