@@ -1,5 +1,8 @@
-.team
-{
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet');
+body {
+font-family: 'Roboto', sans-serif;
+}
+.team {
     margin: 75px 0;
 }
 h1
@@ -49,12 +52,17 @@ h1:after
 }
 .img-box img {
     position: relative;
-    box-shadow: 10px 10px 5px grey;
+    box-shadow:  0 10px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+.img-box img:hover,
+.img-box1 img:hover{
+    box-shadow:  0 13px 10px 0 rgba(0, 0, 0, 0.2);
 }
 .img-box1 img{
-  box-shadow: 10px 10px 5px grey;
+    box-shadow:  0 10px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
 }
-
 .img-box ul
 {
     margin: 0;
@@ -64,8 +72,10 @@ h1:after
     bottom: 0;
     display: block;
     left: 35%;
-    transform: translateY(80%);
+    transform: translateY(100%);
     opacity: 1;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
 .img-box ul li
 {
@@ -75,40 +85,43 @@ h1:after
     border-radius: 50%;
     margin: 3px;
     display: inline-block;
-
 }
 .img-box a
 {
     color: #fff;
 }
-
-
 .fa-linkedin
 {
-    color: blue;
-    
+    color: black;
 }
 .fa-github
 {
     color: black;
-    
 }
-
-
 .img-box .img-container {
     width: 250px;
     height: 250px;
     margin: auto;
     position: relative;
 }
-
-
-
-.img-overlay:hover {
-    opacity: 1;
+.img-box a:hover li
+{
+    color: white;
+    border: 1px solid black;
+    background-color: black;
 }
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+.img-box a:hover li>.fa-linkedin
+{
+  color: white;
+}
+.img-box a:hover li>.fa-github
+{
+  color: white;
+}
+.img-overlay, .img-box ul, .img-box ul li,.fa-linkedin,.fa-github
+{
+    transition: all 0.2s ease-in;
+}
 .hero {
   background-color: #0040c1;
   position: relative;
@@ -172,4 +185,11 @@ h1:after
     transform: scale(20) rotate(960deg) translate(-50%, -50%);
     opacity: 0;
   }
+}
+.img-box img:hover,
+.img-box1 img:hover {
+	transition: ease-in-out 0.2s all;
+	-webkit-transition: ease-in-out 0.2s all;
+	-moz-transition: ease-in-out 0.2s all;
+	-o-transition: ease-in-out 0.2s all;
 }
