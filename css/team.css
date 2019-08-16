@@ -93,7 +93,6 @@ h1:after
 .fa-linkedin
 {
     color: black;
-    color: rgb(0,119,181);
 }
 .fa-github
 {
@@ -122,8 +121,6 @@ h1:after
 .img-overlay, .img-box ul, .img-box ul li,.fa-linkedin,.fa-github
 {
     transition: all 0.2s ease-in;
-.img-overlay:hover {
-    opacity: 1;
 }
 .hero {
   background-color: #0040c1;
