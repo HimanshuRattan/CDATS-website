@@ -2,6 +2,7 @@
 	margin-top: 1em;
 }
 .wrapper {
+	margin-top: 25px;
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
