@@ -199,3 +199,36 @@ html {
 	display: block;
 	margin: 20px 0 20px 0;
 }
+/* navbar */
+.custom-center {
+	margin: auto;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+	font-weight: 500;
+}
+.fixed-top.opaque {
+	background-color: #000;
+	transition: background-color 2s ease 0s;
+}
+.fixed-top {
+	background-color: rgba(255, 255, 255, 0);
+	transition: background-color 2s ease 0s;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-toggler,
+.navbar-light .navbar-nav .nav-link:hover {
+	color: orange;
+	border-color: orange;
+}
+.navbar ul li {
+	margin: 0 20px 0 20px;
+}
+.navbar ul li:hover {
+	color: orange;
+	border-bottom: 2px solid orange;
+}
+/* end navbar */

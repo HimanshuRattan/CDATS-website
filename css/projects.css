@@ -1,172 +1,151 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
-
-@-ms-viewport{width:device-width;zoom: 1;}
-
-@-0-viewport{width:device-width;zoom: 1;}
-
-@viewport{width:device-width:zoom: 1;}
-
-body {
-  
-  font-family: "Roboto", sans-serif;
-  background-image: url("https://css-tricks.com/wp-content/uploads/2017/09/radial-gradient.png");
-  background-repeat: no-repeat;
-
+.title {
+	margin-top: 1em;
 }
 
-.image1 {
-  max-width: 100%;
-  height: auto;
+.second-div {
+	height: 100vh;
+	padding: 4em 0 0 0;
 }
-
-.ul 
-{
-  list-style-type: none;
-  padding: 0;
-  border: 1px solid #ddd;
+.second-div img {
+	margin-top: 20px;
+	height: 105px;
+	width: 105px;
 }
-
-.ul li 
-{
-  padding: 8px 16px;
-  border-bottom: 2px solid #ddd;
-}
-
-.ul li:last-child 
-{
-  border-bottom: none
-}
-
-.h1
-{
-	text-align:center;
-	font-size: 6rem;
-}
-
-.h2
-{
+.centered3 {
 	text-align: center;
+	margin-top: 5em;
+}
+.centered4 span {
+	font-size: 130%;
+	border-bottom: 2px solid black;
+	display: block;
+	margin: 20px 0 20px 0;
+}
+@media only screen and (max-width: 600px) {
+	.centered3 {
+		margin-top: 0em;
+	}
+}
+.ul {
+	list-style-type: none;
+	padding: 0;
+	border: none;
+}
+.ul li {
+	padding: 8px 16px;
+	border-bottom: 2px solid #ddd;
 }
 
-.h3
-{
-	margin-left: 20px;
-}
-
-/* The card */
 .card {
-  position: relative;
-  height: 450px;
-  width: 900px;
-  margin: 200px auto;
-  background-color: #FFF;
-  -webkit-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+	position: relative;
+	height: 450px;
+	width: 900px;
+	margin: 60px auto;
+	background-color: #fff;
+	box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* Image on the left side */
 .thumbnail {
-  float: left;
-  position: relative;
-  left: 30px;
-  top: -30px;
-  height: 320px;
-  width: 530px;
-  -webkit-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
-  overflow: hidden;
+	float: left;
+	position: relative;
+	left: 30px;
+	top: -30px;
+	height: 320px;
+	width: 530px;
+	box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2);
+	overflow: hidden;
 }
 
 /*object-fit: cover; */
 /*object-position: center; */
 img.left {
-  position: relative;
-  left: 50%;
-  top: 50%;
-  height: 100%;
-  width: 100%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+	position: relative;
+	left: 50%;
+	top: 50%;
+	height: 100%;
+	width: 100%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
 
 /* Right side of the card */
 .right {
-  margin-left: 590px;
-  margin-right: 20px;
+	margin-left: 590px;
+	margin-top: -200px;
+	margin-right: 20px;
 }
 
 .h11 {
-  padding-top: 15px;
-  font-size: 1.3rem;
-  color: #4B4B4B;
-  text-align: center;
+	padding-top: 0px;
+	font-size: 1.3rem;
+	color: #4b4b4b;
+	text-align: center;
 }
 
 .author {
-  background-color: #9ECAFF;
-  height: 30px;
-  width: 90px;
-  border-radius: 9px;
-  margin: 0 auto;
+	background-color: #9ecaff;
+	height: 30px;
+	width: 160px;
+	border-radius: 9px;
+	margin: 0 auto;
 }
-
-.author > img {
-  padding-top: 5px;
-  margin-left: 10px;
-  float: left;
-  height: 20px;
-  width: 20px;
-  border-radius: 100%;
-}
-
 .h22 {
-  padding-top: 8px;
-  margin-right: 6px;
-  text-align: right;
-  font-size: 0.8rem;
+	padding-top: 8px;
+	margin-right: 6px;
+	text-align: center;
+	font-size: 0.8rem;
 }
 
 .separator {
-  margin-top: 10px;
-  border: 1px solid #C3C3C3;
+	margin-top: 10px;
+	border: 1px solid #c3c3c3;
 }
 
 .p {
-  text-align: justify;
-  padding-top: 10px;
-  font-size: 0.95rem;
-  line-height: 150%;
-  color: #4B4B4B;
+	text-align: justify;
+	padding-top: 10px;
+	font-size: 0.95rem;
+	line-height: 150%;
+	color: #4b4b4b;
 }
 
+/*  trying stuff */
 
-
-/* DATE of release */
-h5 {
-  position: absolute;
-  left: 30px;
-  bottom: -120px;
-  font-size: 6rem;
-  color: #C3C3C3;
-}
-
-h6 {
-  position: absolute;
-  left: 30px;
-  bottom: -55px;
-  font-size: 2rem;
-  color: #C3C3C3;
-}
-
-.p2
-{
+/* 
+.pro {
 	position: absolute;
-	left: 105px;
-	bottom: 8px;
-	font-size: 1rem;
-	color: #616060
 }
+
+.card {
+	display: inline-block;
+	width: 1000px;
+	height: 400px;
+	position: relative;
+	top: 30px;
+	left: 200px;
+	box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.red {
+	background: #fff;
+	z-index: 1;
+}
+.green {
+	z-index: 2;
+	top: 100px;
+	height: 300px;
+	width: 700px;
+}
+.project-name {
+	font-size: 24px;
+	position: absolute;
+	top: 10px;
+	border-bottom: 2px solid black;
+	padding: 10px;
+}
+.pro ul {
+	position: absolute;
+	list-style-type: none;
+	top: 120px;
+} */

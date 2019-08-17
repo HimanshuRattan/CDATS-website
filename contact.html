@@ -3,37 +3,65 @@
 <head>
 <meta charset = "UTF-8" >
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>Contact Us form</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+  <!-- bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
   <link rel="stylesheet" href="css/contact.css">
-
 </head>
 
-
 <body>
+    <!-- start navabr -->
+    <div class="container">
+        <div class="title">CONTACT US</div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <!-- <a class="navbar-brand" href="index.html">AAKASH KAPOOR</a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav text ml-auto custom-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="team.html">Team</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link active" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
   <div class="wrapper">
     <div class="contact-form">
       <div class="input-fields">
-        <input type="text" class="input" placeholder="Name">
-        <input type="text" class="input" placeholder="Email Address">
-        <input type="text" class="input" placeholder="Phone">
-        <input type="text" class="input" placeholder="Subject">
-
-
+        <input type="text" class="input" placeholder="Name" required>
+        <input type="email" class="input" placeholder="Email Address" required>
+        <input type="number" class="input" placeholder="Phone" required>
+        <input type="text" class="input" placeholder="Subject" required>
       </div>
       <div class="msg">
         <textarea placeholder="Message"></textarea>
-        <div class="btn">Send</div>
-
+        <div class="btn">SEND</div>
         </div>
       </div>
-
-
     </div>
-
-
   </div>
 
-
+<!-- bootstrap -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- end bootstrap -->
 </body>
 </html>
