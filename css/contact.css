@@ -11,13 +11,12 @@
 }
 .contact-form {
 	max-width: 550px;
-	height: 260px;
-    margin: 0 auto;
-    background: rgba(0, 0, 0, 0.8);
-    padding: 30px;
-    border-radius: 5px;
-    display: flex;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+	margin: 0 auto;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 30px;
+	border-radius: 5px;
+	display: flex;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
 }
 .input-fields {
 	display: flex;
@@ -31,16 +30,16 @@
 .input-fields .input,
 .msg textarea {
 	margin: 10px 0;
-    background: transparent;
-    border: 0;
-    border-bottom: 2px solid #c5ecfd;
-    padding: 10px;
-    color: #c5ecfd;
-    width: 80%;
-    max-height: 190px;
+	background: transparent;
+	border: 0;
+	border-bottom: 2px solid #c5ecfd;
+	padding: 10px;
+	color: #c5ecfd;
+	width: 100%;
+	max-height: 178px;
 }
 textarea {
-	height: 200px;
+	height: 202px;
 }
 ::-webkit-input-placeholder,
 ::-moz-input-placeholder,
@@ -49,46 +48,24 @@ textarea {
 }
 .btn {
 	background: #39b7dd;
-    text-align: center;
-    padding: 10px 15px 10px 15px;
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
-    width: 10%;
-    font-weight: 500;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -50px;
+	text-align: center;
+	padding: 10px 15px 10px 15px;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	width: 100%;
+	font-weight: 500;
+	border: 3px solid #39b7dd;
 }
 .btn:hover {
 	background: #fff;
 	color: #39b7dd;
 }
-@media screen and (max-width: 400px) {
+@@media screen and (max-width: 600px) {
 	.contact-form {
 		flex-direction: column;
-		height: 400px;
-		margin-left: 0px;
-		margin-right: 0px;
 	}
 	.msg textarea {
-		height: 50px;
+		height: 80px;
 	}
-	.btn{
-		margin-right: auto;
-		margin-top: -70px;
-		width: 50%;
-	}
-	.input-fields,
-	.msg {
-		width: 100%;
-	}
-}
-@media screen and (max-width: 700px) {
-	.wrapper{
-		padding-top: 20px;
-		padding-right: 0px;
-		padding-left: 0px;
-	}
-
 }
