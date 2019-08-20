@@ -1,113 +1,123 @@
 .title {
 	margin-top: 1em;
 }
-.wrapper {
-	margin-top: 25px;
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
+.contact-form-widget {
+	margin-left: 0;
+	margin-top: 1em;
+	max-width: 500px;
+	padding: 0;
 	width: 100%;
-	padding: 0 20px;
+	height: auto;
 }
-.contact-form {
-	max-width: 550px;
-	height: 370px;
-    margin: 0 auto;
-    background: rgba(0, 0, 0, 0.8);
-    padding: 30px;
-    border-radius: 5px;
-    display: flex;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
-}
-.input-fields {
-	display: flex;
-	flex-direction: column;
-	margin-right: 4%;
-}
-.input-fields,
-.msg {
-	width: 48%;
-}
-.input-fields .input{
-	margin: 10px 0;
-    background: transparent;
-    border: 0;
-    border-bottom: 2px solid #c5ecfd;
-    padding: 10px;
-    color: #c5ecfd;
-    width: 80%;
-    max-height: 250px;
-}
-.msg textarea{
-	margin-top: 21px;
-    background: transparent;
-    border: 0;
-    border-bottom: 2px solid #c5ecfd;
-    padding: 10px;
-    height: 75%;
-    color: #c5ecfd;
-    width: 80%;
 
+.contact-form-email,
+.contact-form-email-message,
+.contact-form-name {
+	max-width: 100%;
+	width: 100%;
+	transition: .3s linear;
 }
-textarea {
-	height: 200px;
+
+.contact-form-email,
+.contact-form-name {
+	font-size: 15px;
+	background: #fafafa;
+	border-bottom: 3px solid #03a9f4;
+	box-sizing: border-box;
+	color: #888;
+	display: inline-block;
+	height: 40px;
+	margin: 0;
+	margin-top: 5px;
+	padding: 10px;
+	vertical-align: top;
+	transition: .3s linear;
+	border-top: none;
+	border-right: none;
+	border-left: none;
 }
-::-webkit-input-placeholder,
-::-moz-input-placeholder,
-::-ms-input-placeholder {
-	color: #c5ecfd;
+
+.contact-form-email-message {
+	font-family: Roboto;
+	font-size: 15px;
+	background: #fafafa;
+	border-bottom: 3px solid #03a9f4;
+	box-sizing: border-box;
+	color: #888;
+	display: inline-block;
+	margin: 0;
+	margin-top: 5px;
+	padding: 10px;
+	vertical-align: top;
+	transition: .3s linear;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	resize: none;
 }
-.btn {
-	background: #39b7dd;
-    text-align: center;
-    padding: 10px 15px 10px 15px;
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
-    width: 20%;
-    font-weight: 500;
-    margin-left: 40%;
-    margin-top: -100px;
+
+.contact-form-email:hover,
+.contact-form-name:hover,
+.contact-form-email-message:hover {
+	border-bottom: 3px solid orange;
+	outline: none;
+	box-shadow: none;
+	transition: .3s linear;
+	background: none;
+	border-top: none;
+	border-right: none;
+	border-left: none;
 }
-.btn:hover {
-	background: #fff;
-	color: #39b7dd;
-	transition: all 0.3s ease-in;
+
+.contact-form-email:focus,
+.contact-form-name:focus,
+.contact-form-email-message:focus {
+	background: #fafafa;
+	border-bottom: 3px solid orange;
+	color: #666;
+	outline: none;
+	box-shadow: none;
+	border-top: none;
+	border-right: none;
+	border-left: none;
 }
-@media screen and (max-width: 420px) {
-	.contact-form {
-		flex-direction: column;
-		height: 500px;
-		margin-left: 10px;
-		margin-right: 10px;
-		margin-top: 100px;
-		padding-right: 0;
-	}
-	.msg textarea {
-		height: 50px;
-	}
-	.btn{
-		margin-left: 60px;
-		margin-top: -120px;
-		width: 70%;
-	}
-	.input-fields,
-	.msg {
-		width: 100%;
-	}
+form {
+	color: #999;
 }
-@media screen and (max-width: 700px) {
-	.wrapper{
-		padding-top: 20px;
-		padding-right: 0px;
-		padding-left: 0px;
-	}
-	.body{
-		position: fixed;
-	}
+
+.contact-form-button-submit {
+	transition: .3s linear;
+	box-shadow: none;
+	text-transform: none;
+	padding: 10px 20px 7px 20px;
+	border: none;
+	height: 40px;
+	margin: 20px 0 0 0;
+	float: left;
+	background: #03a9f4;
+	border-bottom: 3px solid #029ce3;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+	font-size: 15px;
+	border-radius: 3px;
 }
-@media screen and (max-width: 321px){
-	.contact-form{
-		margin-top: 150px;
-	}
-}	
+
+.contact-form-button-submit:hover,
+.contact-form-button-submit:focus {
+	background-color: #029ce3;
+	background-image: none;
+	border-bottom: 3px solid #0292d4;
+	outline: none;
+	color: #fff;
+	cursor: pointer;
+	transition: .3s linear;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+}
+.nama,
+.email,
+.pesan {
+	text-align: left;
+}
