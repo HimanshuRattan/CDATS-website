@@ -45,17 +45,16 @@
   <div class="wrapper">
     <div class="contact-form">
       <div class="input-fields">
-        <input type="text" class="input" placeholder="Name" required>
-        <input type="email" class="input" placeholder="Email Address" required>
-        <input type="number" class="input" placeholder="Phone" required>
-        <input type="text" class="input" placeholder="Subject" required>
+        <input type="text" class="input" placeholder="Name" required="required">
+        <input type="email" class="input" placeholder="Email" required="required">
+        <input type="tel" class="input" placeholder="Phone" required="required" pattern="\d*" name="usrtel" />
+        <input type="text" class="input" placeholder="Subject" required="required">
       </div>
       <div class="msg">
         <textarea placeholder="Message"></textarea>
-        <div class="btn">SEND</div>
         </div>
       </div>
-    
+    <div class="btn">SEND</div>
     </div>
   </div>
 

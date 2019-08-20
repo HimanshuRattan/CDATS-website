@@ -11,12 +11,13 @@
 }
 .contact-form {
 	max-width: 550px;
-	margin: 0 auto;
-	background: rgba(0, 0, 0, 0.8);
-	padding: 30px;
-	border-radius: 5px;
-	display: flex;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+	height: 370px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
 }
 .input-fields {
 	display: flex;
@@ -27,19 +28,29 @@
 .msg {
 	width: 48%;
 }
-.input-fields .input,
-.msg textarea {
+.input-fields .input{
 	margin: 10px 0;
-	background: transparent;
-	border: 0;
-	border-bottom: 2px solid #c5ecfd;
-	padding: 10px;
-	color: #c5ecfd;
-	width: 100%;
-	max-height: 178px;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #c5ecfd;
+    padding: 10px;
+    color: #c5ecfd;
+    width: 80%;
+    max-height: 250px;
+}
+.msg textarea{
+	margin-top: 21px;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #c5ecfd;
+    padding: 10px;
+    height: 75%;
+    color: #c5ecfd;
+    width: 80%;
+
 }
 textarea {
-	height: 202px;
+	height: 200px;
 }
 ::-webkit-input-placeholder,
 ::-moz-input-placeholder,
@@ -48,24 +59,55 @@ textarea {
 }
 .btn {
 	background: #39b7dd;
-	text-align: center;
-	padding: 10px 15px 10px 15px;
-	border-radius: 5px;
-	color: #fff;
-	cursor: pointer;
-	width: 100%;
-	font-weight: 500;
-	border: 3px solid #39b7dd;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    width: 20%;
+    font-weight: 500;
+    margin-left: 40%;
+    margin-top: -100px;
 }
 .btn:hover {
 	background: #fff;
 	color: #39b7dd;
+	transition: all 0.3s ease-in;
 }
-@@media screen and (max-width: 600px) {
+@media screen and (max-width: 420px) {
 	.contact-form {
 		flex-direction: column;
+		height: 500px;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 100px;
+		padding-right: 0;
 	}
 	.msg textarea {
-		height: 80px;
+		height: 50px;
+	}
+	.btn{
+		margin-left: 60px;
+		margin-top: -120px;
+		width: 70%;
+	}
+	.input-fields,
+	.msg {
+		width: 100%;
 	}
 }
+@media screen and (max-width: 700px) {
+	.wrapper{
+		padding-top: 20px;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.body{
+		position: fixed;
+	}
+}
+@media screen and (max-width: 321px){
+	.contact-form{
+		margin-top: 150px;
+	}
+}	
