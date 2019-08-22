@@ -1,17 +1,3 @@
-html
-{
-	scroll-behavior: smooth;
-}
-
-@import url(https://fonts.googleapis.com/css?family=Roboto);
-
-body {
-  background: #eee;
-  font-family: "Roboto", sans-serif;
-  background-image: url("https://css-tricks.com/wp-content/uploads/2017/09/radial-gradient.png");
-  background-repeat: no-repeat;
-
-}
 .title {
 	margin-top: 1em;
 }
@@ -122,8 +108,11 @@ img.left {
 	color: #4b4b4b;
 }
 
+
 body {
- 
+  background: #eee;
+  background-image: url("https://css-tricks.com/wp-content/uploads/2017/09/radial-gradient.png");
+  background-repeat: no-repeat;
 }
 
 .date__box {
