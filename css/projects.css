@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 600px) {
   .card__background--main {
     float: none;
@@ -48,6 +49,7 @@ body {
 	padding: 0;
 	border: none;
 }
+
 .ul li {
 	padding: 8px 16px;
 	border-bottom: 2px solid #ddd;
@@ -125,6 +127,11 @@ img.left {
 	color: #4b4b4b;
 }
 
+body {
+  background: #eee;
+  background-image: url("https://css-tricks.com/wp-content/uploads/2017/09/radial-gradient.png");
+  background-repeat: no-repeat;
+}
 
 .date__box {
   position: absolute;
@@ -199,6 +206,7 @@ img.left {
 .blog-card:hover .date__box {
   opacity: 1;
   transform: scale(1);
+
 }
 
 .blog-card .card__background--main{
@@ -247,6 +255,27 @@ b.icon-link:hover {
 .btn:hover {
   background: #ffb535;
   color: #fff;
+}
+.btn.btn--with-icon {
+  padding-right: 20px;
+}
+.btn.btn--with-icon i {
+  padding: 0px 30px 0px 15px;
+  margin-right: 10px;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: bottom;
+  color: white;
+  background: #ffb535;
+  clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
+}
+.btn.btn--only-icon {
+  width: 50px;
+}
+
+.cardl
+{
+	list-style-type: none;
 }
 .btn.btn--with-icon {
   padding-right: 20px;
