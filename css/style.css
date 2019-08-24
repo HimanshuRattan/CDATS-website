@@ -37,3 +37,10 @@ body {
 	font-weight: 500;
 	font-size: 3em;
 }
+.page-footer {
+	background: #000;
+	color: #fff;
+}
+.page-footer a {
+	color: orange;
+}

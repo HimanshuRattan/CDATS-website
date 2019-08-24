@@ -84,7 +84,6 @@
 form {
 	color: #999;
 }
-
 .contact-form-button-submit {
 	transition: .3s linear;
 	box-shadow: none;
@@ -92,7 +91,7 @@ form {
 	padding: 10px 20px 7px 20px;
 	border: none;
 	height: 40px;
-	margin: 20px 0 0 0;
+	margin: 5px 0 0 0;
 	float: left;
 	background: #03a9f4;
 	border-bottom: 3px solid #029ce3;
@@ -120,4 +119,7 @@ form {
 .email,
 .pesan {
 	text-align: left;
+}
+.page-footer {
+	margin-top: 25px;
 }

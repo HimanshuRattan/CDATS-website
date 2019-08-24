@@ -232,3 +232,10 @@ html {
 	border-bottom: 2px solid orange;
 }
 /* end navbar */
+.page-footer {
+	background: #000;
+	color: #fff;
+}
+.page-footer a {
+	color: orange;
+}
