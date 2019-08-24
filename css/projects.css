@@ -9,10 +9,13 @@
 
 body {
 	background: #eee;
-	background-image: url("https://css-tricks.com/wp-content/uploads/2017/09/radial-gradient.png");
-	background-repeat: no-repeat;
 }
-
+.bg-image {
+	background-image: url("https://css-tricks.com/wp-content/uploads/2017/09/radial-gradient.png");
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+}
 .title {
 	margin-top: 1em;
 }
