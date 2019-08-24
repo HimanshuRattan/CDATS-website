@@ -313,6 +313,7 @@ b.icon-link i {
   .col-12{
     margin-top: 90px;
     margin-bottom: -150px;
+  }
 }
 @media screen and (max-width:300px){
   .col-sm{
