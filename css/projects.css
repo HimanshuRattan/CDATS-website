@@ -151,6 +151,7 @@ body {
 .blog-card {
   padding: 30px;
   position: relative;
+  margin-top: 20px;
 }
 .blog-card .date__box {
   opacity: 0;
@@ -199,6 +200,12 @@ body {
   z-index: 10;
   background: white;
   padding: 20px 15px;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 6px;
+}
+.blog-card .blog-card__info:hover {
+  box-shadow: 0 13px 10px 0 rgba(0, 0, 0, 0.2);
+
 }
 .blog-card .blog-card__info h5 {
   transition: 300ms ease-in-out;
@@ -230,10 +237,10 @@ b.icon-link {
 b.icon-link i {
   color: #ffb535;
 }
-b.icon-link:hover {
+/* b.icon-link:hover {
   color: #ffb535;
   text-decoration: none;
-}
+} */
 
 .btn {
   background: white;
@@ -255,6 +262,7 @@ b.icon-link:hover {
 .btn:hover {
   background: #ffb535;
   color: #fff;
+  transition: .5s;
 }
 .btn.btn--with-icon {
   padding-right: 20px;
@@ -297,4 +305,46 @@ b.icon-link:hover {
 .cardl
 {
 	list-style-type: none;
+}
+@media screen and (max-width:2000px){
+  .col-12{
+    margin-top: 90px;
+    margin-bottom: -150px;
+  }
+}
+@media screen and (max-width:1300px){
+  .col-sm{
+    bottom: 70px;
+  }
+}
+@media screen and (max-width:300px){
+  .col-sm{
+    bottom: 60px;
+  }
+  .idea{
+    display: none;
+  }
+}
+
+ @media screen and (max-width:320px){
+  .col-12{
+    margin-top: 150px;
+    margin-bottom: -200px;
+  }
+}
+/*ipad*/
+@media screen and (device-width:768px)
+and (device-height: 1024px){
+  .col-12{
+    top: -400px;
+    margin-bottom: -100px;
+  }
+}
+/*ipad pro*/
+@media screen and (device-width:1024px)
+and (device-height: 1366px){
+  .col-12{
+    top: -700px;
+    margin-bottom: -100px;
+  }
 }
