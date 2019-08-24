@@ -306,16 +306,13 @@ b.icon-link i {
 {
 	list-style-type: none;
 }
-@media screen and (max-width:2000px){
-  .col-12{
-    margin-top: 90px;
-    margin-bottom: -150px;
-  }
-}
 @media screen and (max-width:1300px){
   .col-sm{
     bottom: 70px;
   }
+  .col-12{
+    margin-top: 90px;
+    margin-bottom: -150px;
 }
 @media screen and (max-width:300px){
   .col-sm{
