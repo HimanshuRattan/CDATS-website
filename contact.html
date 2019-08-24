@@ -45,7 +45,10 @@
     <center>
         <div class="contact-form-widget">
           <div class="form">
-            <form name="contact-form">
+            <form name="contact-form" action="" method="post" netlify-honeypot="bot-field" data-netlify="true">
+                <p class="hidden">
+                    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                  </p>
               <div class="nama">
                 <br />
                 <br />
@@ -60,9 +63,9 @@
               <br />
               <div class="pesan">
                 <i class="fa fa-pencil-square-o"></i> Message:</div>
-              <textarea class="contact-form-email-message" cols="30" id="ContactForm1_contact-form-email-message" name="email-message" rows="10"></textarea>
+              <textarea class="contact-form-email-message" cols="30" id="ContactForm1_contact-form-email-message" name="message" rows="10"></textarea>
               <br />
-              <input class="contact-form-button contact-form-button-submit fa-user" id="ContactForm1_contact-form-submit" type="button" value="Send" />
+              <input class="contact-form-button contact-form-button-submit fa-user" id="ContactForm1_contact-form-submit" type="submit" name="submit" />
               <br />
             </form>
           </div>
