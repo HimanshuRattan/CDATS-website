@@ -13,7 +13,7 @@ body {
 .bg-image {
 	background-image: url("https://css-tricks.com/wp-content/uploads/2017/09/radial-gradient.png");
 	background-size: cover;
-	height: 100vh;
+	height: 100%;
 	width: 100%;
 }
 .title {
