@@ -95,6 +95,9 @@ h1:after {
 	margin: auto;
 	position: relative;
 }
+.img-box a:hover{
+	text-decoration: none;
+}
 .img-box a.linkedin:hover li {
 	border: 1px solid black;
 	background-color: #0077b5;
