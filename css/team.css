@@ -23,8 +23,8 @@ h1:after {
 .profile {
 	margin-top: 20px;
 }
-.img-responsive{
-	object-fit: cover;;
+.img-responsive {
+	object-fit: cover;
 }
 .profile .img-box {
 	opacity: 1;
