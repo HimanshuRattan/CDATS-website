@@ -194,8 +194,8 @@ html {
 	text-align: center;
 }
 .centered4 span {
-	font-size: 130%;
-	border-bottom: 2px solid black;
+	font-size: 150%;
+	border-bottom: 2.5px solid black;
 	display: block;
 	margin: 20px 0 20px 0;
 }
@@ -235,7 +235,7 @@ html {
 .page-footer {
 	background: #000;
 	color: #fff;
-	margin-top: 60px;
+	margin-top: 30px;
 }
 .page-footer a {
 	color: orange;
